@@ -8,12 +8,11 @@
 .weather-details img{
     width: 60px;
 }
-/* .weather-details p{
 
-} */
 .weather-details h1{
     font-size: 3em;
 }
+
 .weather-details h2{
     font-size: 2em;
 }

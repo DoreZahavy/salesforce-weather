@@ -1,9 +1,19 @@
 <template>
     <div>
-        <lightning-input class="city-input" type="text" value={filterBy} placeholder="Or search city by name" onkeyup={handleInput}></lightning-input>
+        <lightning-input class="city-input" 
+            type="text" 
+            value={filterBy} 
+            placeholder="Or search city by name" 
+            onkeyup={handleInput}>
+        </lightning-input>
         <ul if:true={showDropdown}>
             <template for:each={cities} for:item="city">
-                <li key={city.id} onclick={selectCity} data-id={city.id} class="city-option">{city.name}, {city.country}</li>
+                <li key={city.id} 
+                    onclick={selectCity} 
+                    data-id={city.id} 
+                    class="city-option">
+                    {city.name}, {city.country}
+                </li>
             </template>
         </ul>
     </div>
