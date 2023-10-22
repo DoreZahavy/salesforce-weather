@@ -1,0 +1,15 @@
+h1{
+    background-color:blanchedalmond;
+}
+
+.city-input{
+    color: #000;
+    cursor: pointer;
+    margin-block-end: 1em;
+}
+
+.city-option{
+    margin-inline-start: .25em;
+    min-height: 34px;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.weather-details{
+    margin-inline-start: 6em;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.weather-details img{
+    width: 60px;
+}
+/* .weather-details p{
+
+} */
+.weather-details h1{
+    font-size: 3em;
+}
+.weather-details h2{
+    font-size: 2em;
+}
+
+.weather-details .weather-data{
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.weather-details .weather-data p{
+    font-weight: 400;
+    font-size: .9em;
+}

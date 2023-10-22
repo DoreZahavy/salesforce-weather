@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Find weather by city">
+        <div class="main-container">
+            <section class="search-controls">
+
+                <button class="local-btn" onclick={getLocalWeather}>
+                    <p>Local Weather</p>
+                </button>
+                <c-city-select oncoord={handleCoordUpdate}></c-city-select>
+            </section>
+            <c-realtime-weather></c-realtime-weather>
+        </div>
+    </lightning-card>
+</template>

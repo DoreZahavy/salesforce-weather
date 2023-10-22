@@ -1,0 +1,46 @@
+:host {
+    --slds-c-card-color-background: linear-gradient(90deg, rgba(22, 9, 88, 1) 10%, rgba(53, 41, 112, 1) 100%);
+
+    --slds-c-card-text-color: #fff;
+    --slds-c-card-heading-font-size: 1.5em;
+
+    --slds-c-card-header-spacing-inline-start: 2em;
+}
+
+.main-container {
+    margin-inline-start: 1em;
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    padding: 1em;
+    /* width: 120px; */
+    height: 290px;
+}
+
+.main-container .search-controls {
+    margin-block-start: 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.main-container .search-controls .local-btn {
+    height: 34px;
+    padding-inline: 1em;
+    border-radius: 0.25em;
+    border: 1px solid #1b96ff;
+    /* margin-block-start: 1em; */
+    background-color: #fff;
+    color: #000;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+    /* transition: color .3s; */
+}
+
+.main-container .search-controls .local-btn:hover {
+    background-color: #1b96ff;
+    color: #fff;
+}

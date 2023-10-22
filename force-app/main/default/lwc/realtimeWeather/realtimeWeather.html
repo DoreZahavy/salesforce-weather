@@ -1,0 +1,21 @@
+<template>
+    <div lwc:if={weather} class="weather-details">
+        <h2>{weather.name}</h2>
+        <p>{weather.condition}</p>
+        <img src={weather.icon} alt="weather">
+        <h1>{weather.temp}℃</h1>
+        <section class="weather-data">
+            <div>
+                <p>{weather.humidity}%</p>
+                <p>Humidity</p>
+            </div>
+            <div>
+                <p>{weather.winddir} wind</p>
+                <p>{weather.windkph} km/h</p>
+            </div>
+        </section>
+    </div>
+    <!-- <div lwc:else>
+        NO DATA YET
+    </div> -->
+</template>
