@@ -1,6 +1,6 @@
-# City Weather App
+# City Weather
 
-City Weather App is a web application developed using Salesforce that allows users to search for weather information by city name. It also features a "Local Weather" functionality to fetch weather data based on the user's current location using geolocation. The app incorporates debounce to limit the number of API calls, improving efficiency and performance.
+City Weather is a web application developed using Salesforce that allows users to search for weather information by city name and get real-time weather information. It also features a "Local Weather" functionality to fetch weather data based on the user's current location using geolocation. The app incorporates debounce to limit the number of API calls, improving efficiency and performance.
 
 ## Demo
 
