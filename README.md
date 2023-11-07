@@ -15,3 +15,6 @@ The application uses WeatherAPI.com to search cities as well as fetch weather da
 * Dore Zahavy
 * Email: dorezahavy@gmail.com
 * GitHub: https://github.com/DoreZahavy
+* Linkedin: www.linkedin.com/in/dore-zahavy
+
+
